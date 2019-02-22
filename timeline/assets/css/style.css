@@ -1,0 +1,38 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Helvetica;
+  background-color: #20262e;
+  background-image: url(https://images.pexels.com/photos/606506/pexels-photo-606506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: 100%;
+  opacity: 25%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+  grid-gap: 10px;
+}
+
+.nav {
+  columns: 3 / 6;
+  rows: 5 / 11;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  color: #2D3137;
+  padding: 10px;
+}
